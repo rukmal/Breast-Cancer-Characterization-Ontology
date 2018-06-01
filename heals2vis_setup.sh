@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Starting puppet (as Docker ENTRYPOINT from original Dockerfile does not run)
+# NOTE: Second puppet apply is a fix for Jetty8 Puppet Bug (see Issue#37 on Whyis repository)
+puppet apply /tmp/install_whyis.pp && puppet apply /tmp/install_whyis.pp
+
 # NOTE: Inclusion of 'cd' in every command is to not break fil references when subshells are created in the bash script
 
 # Dowloading application
