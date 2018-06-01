@@ -10,7 +10,8 @@ chown -R whyis:whyis heals2vis/
 cp heals2vis/autonomic.py whyis/
 
 # Chainging user to 'whyis', installing application
-sudo -u whyis cd heals2vis && pip install -e .
+cd heals2vis
+sudo -u whyis pip install -e .
 
 # Changing user to 'root', restarting apache2 and celeryd
 service apache2 restart
