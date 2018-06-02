@@ -1,6 +1,6 @@
 # Ontology-enabled Breast Cancer Characterization Example Docker Implementation
 
-This is an implementation of the [Knowledge Integration for Disease Characterization - A Breast Cancer Example](https://cancer-staging-ontology.github.io/) built using Docker.
+This is an implementation of the [Knowledge Integration for Disease Characterization - A Breast Cancer Example](https://cancer-staging-ontology.github.io/) (by Oshani Seneviratne, Sabbir Rashid, Shruthi Chari, Jim McCusker, Kristin Bennett, James Hendler and Deborah McGuiness) built using Docker.
 
 To use the example, run the following:
 
